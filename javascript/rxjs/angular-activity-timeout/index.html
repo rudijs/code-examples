@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="plunker">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>AngularJS Plunker</title>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <link rel="stylesheet" href="style.css" />
+    <script data-require="angular.js@1.4.x" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.6/angular.min.js" data-semver="1.4.6"></script>
+    <script data-require="rxjs@*" data-semver="2.5.3" src="//cdnjs.cloudflare.com/ajax/libs/rxjs/2.5.3/rx.all.js"></script>
+    <script data-require="rx.angular.js@*" data-semver="0.0.14" src="https://cdn.rawgit.com/Reactive-Extensions/rx.angular.js/v0.0.14/dist/rx.angular.js"></script>
+    <script data-require="rx.dom.js@*" data-semver="4.0.4" src="https://cdn.rawgit.com/Reactive-Extensions/RxJS-DOM/v4.0.4/dist/rx.dom.js"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body ng-controller="MainCtrl">
+    <input type="text" id="input" value="123">
+    <p>Idle timeout triggers after 5 seconds of inactivity. You can stop with Quit and restart it refreshing the page. Check console for messages.</p>
+    <idle-user stopped="stopped()" resumed="resumed()"></idle-user>
+  </body>
+
+</html>
