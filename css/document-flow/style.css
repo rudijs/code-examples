@@ -1,0 +1,28 @@
+body {
+  background: #202020;
+  color: lightgray;
+}
+
+a {
+  /*width: 1000px;*/
+  /*height: 1000px;*/
+  /*display: block;*/
+}
+.clear-fix {
+  clear: both;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  /*p.col {
+    width: 45%;
+    float: left;
+    padding-right: 20px;
+  }*/
+  p.col {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    padding-right: 1%;
+}
+}
