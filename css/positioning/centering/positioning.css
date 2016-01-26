@@ -1,0 +1,41 @@
+body {
+  height: 1000px;
+  /*background-color: #1f1f1f;*/
+  background-color: #202020;
+  color: #bfbfbf;
+}
+h1 {
+  font-weight: normal;
+  clear: right;
+}
+em {
+  color: #dd740b;
+}
+
+.box {
+  background: #627da0;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.bluebox {
+  /*horizontal axis centering effect*/
+  margin: 0 auto;
+
+  /*vertial center*/
+  /*position: absolute;
+  top: 50%;
+  margin-top: -50px;*/
+}
+
+.container {
+  border: solid red 2px;
+
+  /*vertical axis centering effect*/
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  left: 0;
+  width: 100%;
+}
