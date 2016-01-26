@@ -1,0 +1,34 @@
+body {
+  background: #032336;
+  color: #f5f5f5;
+}
+
+.color-primary-0 { color: #28536C }	/* Main Primary color */
+.color-primary-1 { color: #6F8FA2 }
+.color-primary-2 { color: #477087 }
+.color-primary-3 { color: #113951 }
+.color-primary-4 { color: #032336 }
+
+.header {
+  /*border: solid 1px red;*/
+  background: #6F8FA2;
+  color: #113951;
+}
+.centered {
+  height: 100px;
+}
+h1 {
+  background: #6F8FA2;
+  color: #032336;
+  padding: 1em;;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  p.col {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    padding-right: 1%;
+  }
+}
