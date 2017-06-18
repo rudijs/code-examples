@@ -1,0 +1,31 @@
+{
+  "name": "code-examples",
+  "version": "1.0.0",
+  "description": "Assorted code examples",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "standard": "^10.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudijs/code-examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rudijs/code-examples/issues"
+  },
+  "homepage": "https://github.com/rudijs/code-examples#readme",
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  }
+}
