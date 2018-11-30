@@ -1,3 +1,5 @@
+// FIFO
+
 function createQueue() {
   const queue = [];
 
@@ -32,7 +34,9 @@ q.enqueue("Make an egghead lesson");
 q.enqueue("Help others learn");
 q.enqueue("Be happy");
 
+console.log(q.peek());
 q.dequeue();
+console.log(q.peek());
 q.dequeue();
 console.log(q.peek());
 
